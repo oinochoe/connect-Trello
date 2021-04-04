@@ -1,65 +1,65 @@
 :root {
-  --flash: #8de9f4;
-  --flourish: #f1b0fa;
+    --active: #ef9f70;
+    --base: #fdf673;
 }
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-  background-color: var(--flourish);
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
-
 
 body {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 18px;
-  color: #333;
-  line-height: 1.7;
-  border-top: solid 6px var(--flourish);
-  border-bottom: solid 6px var(--flourish);
-  background-color: #fff;
+    font-family: '맑은 고딕', 'malgun gothic', 'AppleGothicNeoSD', 'Apple SD 산돌고딕 Neo', 'Microsoft NeoGothic', 'Droid sans', sans-serif;
+    font-size: 20px;
+    color: #666;
+    line-height: 1.6;
+    background-color: #fff;
 }
 
-.tint {
-  background-color: #e3eaed;
+img {
+    display: block;
+    max-width: 100%;
 }
 
 header,
-main,
-footer {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 3rem 2rem;
+main {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.contents {
+    background-color: #cbe2ec;
 }
 
 section {
-  padding-top: 1rem;
-  padding-bottom: 2rem;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
 }
 
-section img {
-  width: 100%;
+section:last-of-type {
+    margin-bottom: 150px;
 }
 
-h1 {
-  font-size: 3rem;
-}
-h1, h2, h3 {
-  margin:0;
-  padding: 1rem 0;
-  font-family: Arial, Helvetica, sans-serif;
+footer {
+    padding: 30px 0;
+    background: #1c546c;
+    text-align: center;
+    color: #fff;
+    line-height: 3;
 }
 
 a:link,
 a:visited {
-  text-decoration: none;
-  color: #000;
-  padding: 1px 3px 2px 3px;
-  margin: 0 -3px;
-  background-color:var(--flourish);
+    text-decoration: none;
+    color: #000;
+    padding: 3px;
+    background-color: var(--base);
 }
+
 a:hover,
 a:focus {
-  background-color:var(--flash);
+    background-color: var(--active);
 }
