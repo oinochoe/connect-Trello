@@ -1,8 +1,9 @@
 const fetch = require('node-fetch');
+
 require('dotenv').config();
 const {
-  TRELLO_BOARD_URL='https://trello.com/b/dprLtAO4/noel',
-  TRELLO_LIST_ID='606921d56c782b5f5a65471e',
+  TRELLO_BOARD_URL='https://trello.com/b/BHLrP0F4/noel',
+  TRELLO_LIST_ID='60693747e8d85b7da8f1ce32',
   BRANCH } = process.env;
 
 
